@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Netflix Profile</title>
     <link href="./assets/css/style.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
   </head>
@@ -15,6 +15,63 @@
         </a>
       </div>
     </nav>
+    <main class="container border-bottom border-secondary pb-5 px-3 px-md-5">
+      <div class="col-12 border-bottom border-secondary">
+        <h1 class="text-white fs-9 fw-normal">Edit Profile</h1>
+      </div>
+      <div class="row mt-5 profile-color">
+        <div class="col-12 col-lg-2 d-flex d-md-block justify-content-center align-items-center mb-3 mb-lg-0">
+          <div class="position-relative" style="max-width: 9rem">
+            <img src="./assets/avatar.png" alt="avatar" class="img-fluid" />
+            <div class="circle-overlay position-absolute bottom-0 start-0 shadow">
+              <i class="bi bi-pencil-fill"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col 12 col-lg-9">
+          <div class="input-group flex-nowrap mb-3">
+            <input
+              type="text"
+              class="form-control bg-secondary text-white custom-placeholder"
+              style="border-radius: 0; border: none"
+              placeholder="Username"
+              aria-label="Username"
+              aria-describedby="addon-wrapping"
+            />
+          </div>
+          <p class="fs-5">Language:</p>
+          <div class="dropdown">
+            <button class="btn btn-Netflix dropdown-toggle px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">English</button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Italiano</a></li>
+              <li><a class="dropdown-item" href="#">Nederlands</a></li>
+              <li><a class="dropdown-item" href="#">Español</a></li>
+            </ul>
+          </div>
+          <hr />
+          <p class="fs-5">Maturity Settings:</p>
+          <button class="btn btn-secondary mb-3" style="border-radius: 0">ALL MATURITY RATING</button>
+          <p>Show titles of all maturity ratings fpr this profile.</p>
+          <button class="btn btn-dark mb-3 btn-outline-secondary px-4" style="border-radius: 0">EDIT</button>
+          <hr />
+          <p class="fs-3">Autoplay controls</p>
+          <div class="form-check mb-2">
+            <input class="form-check-input custom-checkbox" type="checkbox" value="" id="checkChecked" checked style="border-radius: 0" />
+            <label class="form-check-label ms-2" for="checkChecked">Autoplay nex episode in a series on all devices.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input custom-checkbox" type="checkbox" value="" id="checkChecked" checked style="border-radius: 0" />
+            <label class="form-check-label ms-2" for="checkChecked">Autoplay previews while browsing on all devices.</label>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container d-flex flex-column flex-sm-row justify-content-center pt-3 px-3 px-md-5">
+      <button class="col-12 col-sm-4 me-4 py-2 btn btn-dark mb-3 btn-outline-secondary px-4" style="border-radius: 0">SAVE</button>
+      <button class="col-12 col-sm-4 me-4 py-2 btn btn-dark mb-3 btn-outline-secondary px-4" style="border-radius: 0">CANCEL</button>
+      <button class="col-12 col-sm-4 py-2 btn btn-dark mb-3 btn-outline-secondary px-4" style="border-radius: 0">DELETE PROFILE</button>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"

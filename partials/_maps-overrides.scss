@@ -1,0 +1,8 @@
+$newFonts: (
+  7: 4rem,
+  8: 5rem,
+  9: 6rem,
+  10: 7rem,
+);
+
+$font-sizes: map-merge($font-sizes, $newFonts);

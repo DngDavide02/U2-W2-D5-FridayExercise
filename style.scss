@@ -1,10 +1,10 @@
 @import "./partials/bootstrap-overrides";
 
 .btn-Netflix {
-  background-color: #000 !important;
-  border-color: white !important;
-  color: white !important;
-  border-radius: 0 !important;
+  background-color: #000;
+  border-color: white;
+  color: white;
+  border-radius: 0;
 }
 
 .btn-Netflix.dropdown-toggle::after {
@@ -13,4 +13,42 @@
 
 .custom-navbar {
   background-image: linear-gradient(to bottom, black, $dark);
+}
+
+.custom-placeholder::placeholder {
+  color: rgba(255, 255, 255, 0.542);
+  opacity: 1;
+}
+
+.profile-color {
+  color: rgba(255, 255, 255, 0.552);
+}
+
+.custom-checkbox {
+  transform: scale(1.7);
+  background-color: transparent;
+  border: 1px solid var(--bs-secondary);
+}
+.custom-checkbox:checked {
+  background-color: transparent;
+  border: 1px solid var(--bs-secondary);
+}
+
+.circle-overlay {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(30%, -30%);
+  cursor: pointer;
+  z-index: 5;
+}
+
+.circle-overlay i {
+  color: white;
+  font-size: 10px;
 }

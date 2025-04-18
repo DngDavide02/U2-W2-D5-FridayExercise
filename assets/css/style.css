@@ -3373,6 +3373,22 @@ progress {
   font-size: 1rem !important;
 }
 
+.fs-7 {
+  font-size: calc(1.525rem + 3.3vw) !important;
+}
+
+.fs-8 {
+  font-size: calc(1.625rem + 4.5vw) !important;
+}
+
+.fs-9 {
+  font-size: calc(1.725rem + 5.7vw) !important;
+}
+
+.fs-10 {
+  font-size: calc(1.825rem + 6.9vw) !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -6984,6 +7000,18 @@ progress {
   }
   .fs-4 {
     font-size: 1.5rem !important;
+  }
+  .fs-7 {
+    font-size: 4rem !important;
+  }
+  .fs-8 {
+    font-size: 5rem !important;
+  }
+  .fs-9 {
+    font-size: 6rem !important;
+  }
+  .fs-10 {
+    font-size: 7rem !important;
   }
 }
 @media print {
@@ -15344,6 +15372,22 @@ textarea.form-control-lg {
   font-size: 1rem !important;
 }
 
+.fs-7 {
+  font-size: calc(1.525rem + 3.3vw) !important;
+}
+
+.fs-8 {
+  font-size: calc(1.625rem + 4.5vw) !important;
+}
+
+.fs-9 {
+  font-size: calc(1.725rem + 5.7vw) !important;
+}
+
+.fs-10 {
+  font-size: calc(1.825rem + 6.9vw) !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -18956,6 +19000,18 @@ textarea.form-control-lg {
   .fs-4 {
     font-size: 1.5rem !important;
   }
+  .fs-7 {
+    font-size: 4rem !important;
+  }
+  .fs-8 {
+    font-size: 5rem !important;
+  }
+  .fs-9 {
+    font-size: 6rem !important;
+  }
+  .fs-10 {
+    font-size: 7rem !important;
+  }
 }
 @media print {
   .d-print-inline {
@@ -18993,10 +19049,10 @@ textarea.form-control-lg {
   }
 }
 .btn-Netflix {
-  background-color: #000 !important;
-  border-color: white !important;
-  color: white !important;
-  border-radius: 0 !important;
+  background-color: #000;
+  border-color: white;
+  color: white;
+  border-radius: 0;
 }
 
 .btn-Netflix.dropdown-toggle::after {
@@ -19005,4 +19061,48 @@ textarea.form-control-lg {
 
 .custom-navbar {
   background-image: linear-gradient(to bottom, black, #141414);
+}
+
+.custom-placeholder::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.542);
+  opacity: 1;
+}
+
+.custom-placeholder::placeholder {
+  color: rgba(255, 255, 255, 0.542);
+  opacity: 1;
+}
+
+.profile-color {
+  color: rgba(255, 255, 255, 0.552);
+}
+
+.custom-checkbox {
+  transform: scale(1.7);
+  background-color: transparent;
+  border: 1px solid var(--bs-secondary);
+}
+
+.custom-checkbox:checked {
+  background-color: transparent;
+  border: 1px solid var(--bs-secondary);
+}
+
+.circle-overlay {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(30%, -30%);
+  cursor: pointer;
+  z-index: 5;
+}
+
+.circle-overlay i {
+  color: white;
+  font-size: 10px;
 }/*# sourceMappingURL=style.css.map */
