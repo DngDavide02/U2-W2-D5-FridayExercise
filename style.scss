@@ -1,0 +1,12 @@
+@import "./partials/bootstrap-overrides";
+
+.btn-Netflix {
+  background-color: #000 !important;
+  border-color: white !important;
+  color: white !important;
+  border-radius: 0 !important;
+}
+
+.btn-Netflix.dropdown-toggle::after {
+  margin-left: 2rem;
+}
