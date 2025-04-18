@@ -19001,4 +19001,8 @@ textarea.form-control-lg {
 
 .btn-Netflix.dropdown-toggle::after {
   margin-left: 2rem;
+}
+
+.custom-navbar {
+  background-image: linear-gradient(to bottom, black, #141414);
 }/*# sourceMappingURL=style.css.map */
