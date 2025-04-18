@@ -19105,4 +19105,19 @@ textarea.form-control-lg {
 .circle-overlay i {
   color: white;
   font-size: 10px;
+}
+
+.border-setting {
+  color: rgba(255, 255, 255, 0.447);
+}
+
+.setting-color {
+  color: rgba(144, 144, 144, 0.733);
+}
+
+.btn-setting {
+  background-color: rgba(195, 195, 195, 0.733);
+  border: 1px solid rgba(255, 255, 255, 0.447);
+  color: black;
+  border-radius: 0;
 }/*# sourceMappingURL=style.css.map */
